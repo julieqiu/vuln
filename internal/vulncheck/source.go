@@ -13,10 +13,10 @@ import (
 
 	"golang.org/x/tools/go/callgraph"
 	"golang.org/x/tools/go/ssa"
-	"golang.org/x/vuln/internal"
-	"golang.org/x/vuln/internal/derrors"
-	"golang.org/x/vuln/internal/semver"
-	"golang.org/x/vuln/osv"
+	"github.com/julieqiu/vuln/internal"
+	"github.com/julieqiu/vuln/internal/derrors"
+	"github.com/julieqiu/vuln/internal/semver"
+	"github.com/julieqiu/vuln/osv"
 )
 
 // Source detects vulnerabilities in packages. The result will contain:

@@ -12,8 +12,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"golang.org/x/tools/go/packages/packagestest"
-	"golang.org/x/vuln/internal/test"
-	"golang.org/x/vuln/osv"
+	"github.com/julieqiu/vuln/internal/test"
+	"github.com/julieqiu/vuln/osv"
 )
 
 func TestFilterVulns(t *testing.T) {

@@ -7,8 +7,8 @@ package test
 import (
 	"context"
 
-	"golang.org/x/vuln/internal/client"
-	"golang.org/x/vuln/osv"
+	"github.com/julieqiu/vuln/internal/client"
+	"github.com/julieqiu/vuln/osv"
 )
 
 // MockClient is an in-memory vulnerability

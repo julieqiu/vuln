@@ -8,7 +8,7 @@ import (
 	"go/token"
 	"testing"
 
-	"golang.org/x/vuln/internal/result"
+	"github.com/julieqiu/vuln/internal/result"
 )
 
 func TestStackFrame(t *testing.T) {
@@ -19,20 +19,20 @@ func TestStackFrame(t *testing.T) {
 	}{
 		{
 			&result.StackFrame{
-				Package:  "golang.org/x/vuln/internal/vulncheck",
+				Package:  "github.com/julieqiu/vuln/internal/vulncheck",
 				Function: "Foo",
 				Position: token.Position{Filename: "some/path/file.go", Line: 12},
 			},
-			"golang.org/x/vuln/internal/vulncheck.Foo",
+			"github.com/julieqiu/vuln/internal/vulncheck.Foo",
 			"some/path/file.go:12",
 		},
 		{
 			&result.StackFrame{
-				Package:  "golang.org/x/vuln/internal/vulncheck",
-				Receiver: "golang.org/x/vuln/internal/vulncheck.Bar",
+				Package:  "github.com/julieqiu/vuln/internal/vulncheck",
+				Receiver: "github.com/julieqiu/vuln/internal/vulncheck.Bar",
 				Function: "Foo",
 			},
-			"golang.org/x/vuln/internal/vulncheck.Bar.Foo",
+			"github.com/julieqiu/vuln/internal/vulncheck.Bar.Foo",
 			"",
 		},
 	} {

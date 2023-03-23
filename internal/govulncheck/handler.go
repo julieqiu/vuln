@@ -5,7 +5,7 @@
 package govulncheck
 
 import (
-	"golang.org/x/vuln/internal/result"
+	"github.com/julieqiu/vuln/internal/result"
 )
 
 // Handler handles messages to be presented in a vulnerability scan output

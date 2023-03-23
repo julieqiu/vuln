@@ -21,8 +21,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmdtest"
-	"golang.org/x/vuln/internal/test"
-	"golang.org/x/vuln/internal/web"
+	"github.com/julieqiu/vuln/internal/test"
+	"github.com/julieqiu/vuln/internal/web"
 )
 
 var update = flag.Bool("update", false, "update test files with results")

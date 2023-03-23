@@ -12,7 +12,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"golang.org/x/vuln/internal/test"
+	"github.com/julieqiu/vuln/internal/test"
 )
 
 func TestExtractPackagesAndSymbols(t *testing.T) {

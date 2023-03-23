@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	"golang.org/x/tools/go/packages"
-	"golang.org/x/vuln/internal/result"
+	"github.com/julieqiu/vuln/internal/result"
 )
 
 // LoadMode is the level of information needed for each package

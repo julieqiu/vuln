@@ -8,11 +8,11 @@ FROM golang:1.18-alpine
 RUN apk update && apk add bash git gcc musl-dev linux-headers gcompat
 
 # ---- Step 1: Build govulncheck ----
-COPY . /go/src/golang.org/x/vuln
-WORKDIR /go/src/golang.org/x/vuln/cmd/govulncheck/integration
-RUN go install golang.org/x/vuln/cmd/govulncheck
+COPY . /go/src/github.com/julieqiu/vuln
+WORKDIR /go/src/github.com/julieqiu/vuln/cmd/govulncheck/integration
+RUN go install github.com/julieqiu/vuln/cmd/govulncheck
 
 # ---- Step 2: Build other test binaries ----
 RUN go install golang.org/dl/go1.18@latest
-RUN go install golang.org/x/vuln/cmd/govulncheck/integration/k8s
-RUN go install golang.org/x/vuln/cmd/govulncheck/integration/stackrox-scanner
+RUN go install github.com/julieqiu/vuln/cmd/govulncheck/integration/k8s
+RUN go install github.com/julieqiu/vuln/cmd/govulncheck/integration/stackrox-scanner

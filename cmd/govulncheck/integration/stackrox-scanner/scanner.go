@@ -10,7 +10,7 @@ import (
 	"os"
 
 	"github.com/google/go-cmp/cmp"
-	"golang.org/x/vuln/internal/result"
+	"github.com/julieqiu/vuln/internal/result"
 )
 
 const usage = `test helper for examining the output of running govulncheck on

@@ -10,7 +10,7 @@ import (
 	"os"
 
 	"golang.org/x/tools/go/buildutil"
-	"golang.org/x/vuln/internal/vulncheck"
+	"github.com/julieqiu/vuln/internal/vulncheck"
 )
 
 type config struct {

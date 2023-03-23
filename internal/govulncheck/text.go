@@ -11,9 +11,9 @@ import (
 	"strings"
 	"text/template"
 
-	"golang.org/x/vuln/internal"
-	"golang.org/x/vuln/internal/result"
-	"golang.org/x/vuln/osv"
+	"github.com/julieqiu/vuln/internal"
+	"github.com/julieqiu/vuln/internal/result"
+	"github.com/julieqiu/vuln/osv"
 )
 
 // NewTextHandler returns a handler that writes govulncheck output as text.
@@ -32,7 +32,7 @@ const (
 	labelWidth = 16
 	lineLength = 55
 
-	detailsMessage = `For details, see https://pkg.go.dev/golang.org/x/vuln/cmd/govulncheck.`
+	detailsMessage = `For details, see https://pkg.go.dev/github.com/julieqiu/vuln/cmd/govulncheck.`
 
 	binaryProgressMessage = `Scanning your binary for known vulnerabilities...`
 )

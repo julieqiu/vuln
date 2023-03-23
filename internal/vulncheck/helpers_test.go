@@ -9,9 +9,9 @@ import (
 	"runtime"
 	"sort"
 
-	"golang.org/x/vuln/internal/semver"
-	"golang.org/x/vuln/internal/test"
-	"golang.org/x/vuln/osv"
+	"github.com/julieqiu/vuln/internal/semver"
+	"github.com/julieqiu/vuln/internal/test"
+	"github.com/julieqiu/vuln/osv"
 )
 
 // testClient contains the following test vulnerabilities

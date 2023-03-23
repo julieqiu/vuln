@@ -8,8 +8,8 @@ import (
 	"context"
 	"fmt"
 
-	"golang.org/x/vuln/internal"
-	"golang.org/x/vuln/internal/client"
+	"github.com/julieqiu/vuln/internal"
+	"github.com/julieqiu/vuln/internal/client"
 )
 
 var stdlibModule = &Module{

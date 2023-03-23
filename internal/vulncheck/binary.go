@@ -15,9 +15,9 @@ import (
 	"strings"
 
 	"golang.org/x/tools/go/packages"
-	"golang.org/x/vuln/internal/derrors"
-	"golang.org/x/vuln/internal/semver"
-	"golang.org/x/vuln/internal/vulncheck/internal/buildinfo"
+	"github.com/julieqiu/vuln/internal/derrors"
+	"github.com/julieqiu/vuln/internal/semver"
+	"github.com/julieqiu/vuln/internal/vulncheck/internal/buildinfo"
 )
 
 // Binary detects presence of vulnerable symbols in exe.

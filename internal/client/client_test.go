@@ -20,9 +20,9 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"golang.org/x/vuln/internal"
-	"golang.org/x/vuln/internal/web"
-	"golang.org/x/vuln/osv"
+	"github.com/julieqiu/vuln/internal"
+	"github.com/julieqiu/vuln/internal/web"
+	"github.com/julieqiu/vuln/osv"
 )
 
 // testCache for testing purposes

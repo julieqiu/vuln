@@ -9,7 +9,7 @@ import (
 	"go/token"
 	"time"
 
-	"golang.org/x/vuln/osv"
+	"github.com/julieqiu/vuln/osv"
 )
 
 // Mode indicates the display mode that the user specified for running

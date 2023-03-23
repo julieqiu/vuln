@@ -29,9 +29,9 @@ must have been compiled with Go 1.18 or greater.
 
 Both [Source] and [Binary] require information about known
 vulnerabilities in the form of a vulnerability database,
-specifically a [golang.org/x/vuln/internal/client.Client].
+specifically a [github.com/julieqiu/vuln/internal/client.Client].
 The vulnerabilities
-are modeled using the [golang.org/x/vuln/osv] format.
+are modeled using the [github.com/julieqiu/vuln/osv] format.
 
 # Results
 
@@ -49,7 +49,7 @@ code.
 There are some limitations with vulncheck. Please see the
 [documented limitations] for more information.
 
-[govulncheck]: https://pkg.go.dev/golang.org/x/vuln/cmd/govulncheck
+[govulncheck]: https://pkg.go.dev/github.com/julieqiu/vuln/cmd/govulncheck
 [documented limitations]: https://go.dev/security/vulncheck#limitations.
 */
 package vulncheck

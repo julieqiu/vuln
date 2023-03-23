@@ -11,7 +11,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"golang.org/x/vuln/internal/govulncheck"
+	"github.com/julieqiu/vuln/internal/govulncheck"
 )
 
 func TestPrinting(t *testing.T) {

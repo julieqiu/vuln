@@ -1,6 +1,6 @@
 # Go Vulnerability Management
 
-[![Go Reference](https://pkg.go.dev/badge/golang.org/x/vuln.svg)](https://pkg.go.dev/golang.org/x/vuln)
+[![Go Reference](https://pkg.go.dev/badge/github.com/julieqiu/vuln.svg)](https://pkg.go.dev/github.com/julieqiu/vuln)
 
 This repository contains packages for accessing and analyzing data from the
 [Go Vulnerability Database](https://vuln.go.dev). It contains the following:

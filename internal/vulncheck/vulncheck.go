@@ -13,8 +13,8 @@ import (
 	"time"
 
 	"golang.org/x/tools/go/packages"
-	"golang.org/x/vuln/internal/client"
-	"golang.org/x/vuln/osv"
+	"github.com/julieqiu/vuln/internal/client"
+	"github.com/julieqiu/vuln/osv"
 )
 
 // Config is used for configuring vulncheck algorithms.

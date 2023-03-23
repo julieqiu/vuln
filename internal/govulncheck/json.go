@@ -9,7 +9,7 @@ import (
 
 	"io"
 
-	"golang.org/x/vuln/internal/result"
+	"github.com/julieqiu/vuln/internal/result"
 )
 
 type jsonHandler struct {

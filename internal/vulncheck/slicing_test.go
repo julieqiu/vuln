@@ -13,7 +13,7 @@ import (
 	"golang.org/x/tools/go/packages/packagestest"
 	"golang.org/x/tools/go/ssa"
 	"golang.org/x/tools/go/ssa/ssautil"
-	"golang.org/x/vuln/internal/test"
+	"github.com/julieqiu/vuln/internal/test"
 )
 
 // funcNames returns a set of function names for `funcs`.

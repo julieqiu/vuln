@@ -18,11 +18,11 @@ import (
 	"time"
 
 	"golang.org/x/tools/go/packages"
-	"golang.org/x/vuln/internal"
-	"golang.org/x/vuln/internal/client"
-	"golang.org/x/vuln/internal/result"
-	"golang.org/x/vuln/internal/vulncheck"
-	"golang.org/x/vuln/osv"
+	"github.com/julieqiu/vuln/internal"
+	"github.com/julieqiu/vuln/internal/client"
+	"github.com/julieqiu/vuln/internal/result"
+	"github.com/julieqiu/vuln/internal/vulncheck"
+	"github.com/julieqiu/vuln/osv"
 )
 
 // doGovulncheck performs main govulncheck functionality and exits the

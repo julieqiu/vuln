@@ -14,10 +14,10 @@ import (
 	"path"
 	"time"
 
-	"golang.org/x/vuln/internal"
-	"golang.org/x/vuln/internal/derrors"
-	"golang.org/x/vuln/internal/web"
-	"golang.org/x/vuln/osv"
+	"github.com/julieqiu/vuln/internal"
+	"github.com/julieqiu/vuln/internal/derrors"
+	"github.com/julieqiu/vuln/internal/web"
+	"github.com/julieqiu/vuln/osv"
 )
 
 type localSource struct {

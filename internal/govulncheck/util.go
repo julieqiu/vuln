@@ -8,11 +8,11 @@ import (
 	"strings"
 
 	"golang.org/x/mod/semver"
-	"golang.org/x/vuln/internal"
-	"golang.org/x/vuln/internal/result"
-	isem "golang.org/x/vuln/internal/semver"
-	"golang.org/x/vuln/internal/vulncheck"
-	"golang.org/x/vuln/osv"
+	"github.com/julieqiu/vuln/internal"
+	"github.com/julieqiu/vuln/internal/result"
+	isem "github.com/julieqiu/vuln/internal/semver"
+	"github.com/julieqiu/vuln/internal/vulncheck"
+	"github.com/julieqiu/vuln/osv"
 )
 
 // latestFixed returns the latest fixed version in the list of affected ranges,

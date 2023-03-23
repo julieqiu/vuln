@@ -10,12 +10,13 @@ import (
 	"fmt"
 	"os"
 
-	"golang.org/x/vuln/internal/govulncheck"
+	"github.com/julieqiu/vuln"
+	"github.com/julieqiu/vuln/internal/govulncheck"
 )
 
 func main() {
 	ctx := context.Background()
-	err := govulncheck.Command(ctx, os.Args[0], os.Args[1:]...).Run()
+	err := vuln.Command(ctx, os.Args[0], os.Args[1:]...).Run()
 	if err != nil {
 		switch err {
 		case flag.ErrHelp:
