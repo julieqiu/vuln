@@ -5,7 +5,7 @@
 //go:build go1.17 && !windows
 // +build go1.17,!windows
 
-package main
+package vuln_test
 
 import (
 	"os"
